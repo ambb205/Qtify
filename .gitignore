@@ -4,7 +4,7 @@
 *.pcapng
 *.pyc
 *.p
-
+*.user
 # Protobuf #
 ############
 *_pb2.py
