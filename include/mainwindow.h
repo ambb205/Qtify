@@ -18,6 +18,9 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QString client_id, QString client_secret, QWidget *parent = nullptr);
     ~MainWindow();
+private slots:
+    void auth_status_changed(QAbstractOAuth::Status status);
+    void login();
 
 private:
     Ui::MainWindow *ui;

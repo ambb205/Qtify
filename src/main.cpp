@@ -34,7 +34,9 @@ int main(int argc, char *argv[])
     }
     if (client_id == "" && client_secret == "")
     {
-        QMessageBox::critical(NULL, "Qtify", "Error, no keys!\nCheck resources/keys.json file and fill in your own keys");
+        QMessageBox::critical(
+                NULL, "Qtify",
+                "Error, no keys!\nCheck resources/keys.json file and fill in your own keys by following the README");
         return 0;
     }
     else

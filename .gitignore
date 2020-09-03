@@ -5,6 +5,7 @@
 *.pyc
 *.p
 *.user
+
 # Protobuf #
 ############
 *_pb2.py
@@ -45,3 +46,4 @@
 build/
 \.idea
 \cmake-build-debug/*
+resources/*.json
