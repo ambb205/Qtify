@@ -39,15 +39,6 @@ Download and follow instructions on Qt's website: [Qt](https://www.qt.io/) or
  sudo apt-get install qt5-default 
 ```
 to avoid having to make a qt account
-###### libviface
-```bash
-git clone https://github.com/HPENetworking/libviface.git
-cd libviface
-mkdir build
-cmake ../
-sudo make install
-sudo ldconfig
-```
 
 ###### nlohmann JSONN
 ```bash
