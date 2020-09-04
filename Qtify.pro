@@ -17,10 +17,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     src/main.cpp \
-    src/mainwindow.cpp
+    src/mainwindow.cpp \
+    src/spotify_delegate.cpp \
+    src/spotify_result.cpp
 
 HEADERS += \
-    include/mainwindow.h
+    include/mainwindow.h \
+    include/spotify_delegate.h \
+    include/spotify_result.h
 
 FORMS += \
     forms/mainwindow.ui
