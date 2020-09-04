@@ -1,6 +1,6 @@
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets network networkauth
 
 CONFIG += c++11
 
@@ -26,7 +26,8 @@ FORMS += \
     forms/mainwindow.ui
 
 RESOURCES += \
-            resources/qdarkstyle/style.qrc
+            resources/qdarkstyle/style.qrc \
+            resources/keys.json
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
